@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <section className="component-section">
+        {/* <section className="component-section">
           <Accordeon />
         </section>
         <section className="component-section">
@@ -29,7 +29,7 @@ function App() {
         </section> 
         <section className="component-section">
           <LoadMoreData />
-        </section>
+        </section> */}
         <section className="component-section">
           <TreeView menus={menus} />
         </section>
