@@ -89,7 +89,7 @@ export default function RandomColor() {
         }}
       >
         <h3>{typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}</h3>
-        <h1>{color}</h1>
+        <h3>{color}</h3>
       </div>
     </div>
   );

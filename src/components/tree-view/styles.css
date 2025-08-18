@@ -1,0 +1,59 @@
+.tree-view-container {
+    min-height: 80vh;
+    width: 350px;
+    background: #232323;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.menu-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    background: #434343;
+    color: yellow;
+}
+
+.menu-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item span {
+    font-size: 20px;
+    padding: 5px 8px;
+    background: #434343;
+    border-radius: 3px;
+    min-width: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.menu-item span:hover {
+    background: yellow;
+    color: #232323;
+}
+
+.menu-list .menu-list {
+    padding-left: 25px;
+    margin-top: 5px;
+}
