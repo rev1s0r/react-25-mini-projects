@@ -35,7 +35,7 @@ export default function RandomColor() {
   return (
     <div
       style={{
-        width: "100vw",
+        width: "95vw",
         height: "100vh",
         background: color,
       }}

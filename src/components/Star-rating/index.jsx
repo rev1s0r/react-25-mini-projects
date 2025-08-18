@@ -20,7 +20,7 @@ export default function StarRating({noOfStars = 5}) {
     }
 
     return (
-        <div className="star-rating" style={{ width: "100vw", height: "100vh" }}> 
+        <div className="star-rating" style={{ width: "50vw", height: "100vh" }}> 
             {
                 [...Array(noOfStars)].map((_, index) => {
                     index += 1; 

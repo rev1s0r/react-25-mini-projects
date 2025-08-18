@@ -1,0 +1,29 @@
+.component-section {
+  margin-bottom: 100px;
+  border-radius: 8px;
+  clear: both;
+  min-height: 500px;
+}
+
+.component-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Špecificky pre Image Slider sekciu */
+.component-section:nth-child(4) {
+  min-height: 600px;
+  margin-bottom: 600px;
+}
+
+/* Reset pozícií pre všetky komponenty */
+.component-section > * {
+  position: relative;
+  z-index: auto;
+}
+
+/* Špecificky pre Load More Data komponent */
+.component-section:nth-child(5) {
+  min-height: auto; /* Nech sa rozširuje podľa obsahu */
+}
