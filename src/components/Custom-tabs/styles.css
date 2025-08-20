@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 8px;
+    display: block;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.tab-item {
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+    background: purple;
+}
+
+.tab-item.active {
+    background: greenyellow;
+    border-color: black;
+    color: white;
+}
+
+.content {
+    padding: 12px;
+    border: 1px solid darkviolet;
+    border-radius: 4px;
+    background: white;
+    color: black;
+}

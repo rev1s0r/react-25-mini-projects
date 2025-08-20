@@ -8,6 +8,8 @@ import TreeView from "./components/Tree-view/index.jsx";
 import menus from "./components/Tree-view/data.js";
 import QrCodeGenerator from "./components/Qr-code-generator/index.jsx";
 import LightDarkMode from "./components/Light-dark-mode/index.jsx";
+import ScrollIndicator from "./components/Scroll-indicator/index.jsx";
+import CustomTabs from "./components/Custom-tabs/tab-parent.jsx";
 
 function App() {
   return (
@@ -33,13 +35,19 @@ function App() {
           <LoadMoreData />
         </section> */}
         {/* <section className="component-section">
-          <TreeView menus={data} />
-        </section> */}
+          <TreeView menus={menus} />
+        </section>  */}
         {/* <section className="component-section">
           <QrCodeGenerator />
         </section> */}
-        <section>
+        {/* <section>
           <LightDarkMode />
+        </section> */}
+        {/* <section>
+          <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+        </section> */}
+        <section>
+          <CustomTabs />
         </section>
       </div>
     </>
