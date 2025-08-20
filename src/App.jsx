@@ -5,7 +5,8 @@ import StarRating from "./components/Star-rating";
 import ImageSlider from "./components/Image-slider";
 import LoadMoreData from "./components/Load-more-data";
 import TreeView from "./components/tree-view";
-import { menus } from "./components/tree-view/data.js";
+import menus from "./components/tree-view/data.js";
+import QrCodeGenerator from "./components/Qr-code-generator/index.jsx";
 
 function App() {
   return (
@@ -30,8 +31,11 @@ function App() {
         <section className="component-section">
           <LoadMoreData />
         </section> */}
+        {/* <section className="component-section">
+          <TreeView menus={data} />
+        </section> */}
         <section className="component-section">
-          <TreeView menus={menus} />
+          <QrCodeGenerator />
         </section>
       </div>
     </>
