@@ -4,9 +4,10 @@ import RandomColor from "./components/Random-color";
 import StarRating from "./components/Star-rating";
 import ImageSlider from "./components/Image-slider";
 import LoadMoreData from "./components/Load-more-data";
-import TreeView from "./components/tree-view";
-import menus from "./components/tree-view/data.js";
+import TreeView from "./components/Tree-view/index.jsx";
+import menus from "./components/Tree-view/data.js";
 import QrCodeGenerator from "./components/Qr-code-generator/index.jsx";
+import LightDarkMode from "./components/Light-dark-mode/index.jsx";
 
 function App() {
   return (
@@ -34,8 +35,11 @@ function App() {
         {/* <section className="component-section">
           <TreeView menus={data} />
         </section> */}
-        <section className="component-section">
+        {/* <section className="component-section">
           <QrCodeGenerator />
+        </section> */}
+        <section>
+          <LightDarkMode />
         </section>
       </div>
     </>
